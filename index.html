@@ -1,24 +1,18 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vision Infra Equipment Solutions</title>
+  <meta name="description" content="Vision Infra Equipment Solutions Limited provides premium infrastructure equipment rental, used equipment trading, and project support across India." />
+  <title>Vision Infra Equipment Solutions | Home</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
-    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-
   <a class="skip-link" href="#main-content">Skip to main content</a>
-
-  <!-- ── UTIL BAR ───────────────────────────────────────────────── -->
   <div id="util-bar">
     <div class="container">
       <div class="util-inner">
@@ -27,92 +21,63 @@
           <span class="util-sep"></span>
           <a href="mailto:info@visioninfraindia.com"><i class="far fa-envelope"></i>info@visioninfraindia.com</a>
         </div>
-        <a href="#" class="util-cta" onclick="showPage('contact');return false">Enquire Now <i
-            class="fas fa-arrow-right ms-1"></i></a>
+        <a href="contact.html" class="util-cta">Enquire Now <i class="fas fa-arrow-right ms-1"></i></a>
       </div>
     </div>
   </div>
-
-  <!-- ── NAVBAR ─────────────────────────────────────────────────── -->
   <nav id="navbar">
     <div class="container">
       <div class="nav-inner">
-        <a class="brand" href="#" onclick="showPage('home');return false">
-          <div class="brand-logo-wrap">
-            <img src="images/logo.jpeg" alt="Vision Infra logo">
-          </div>
-          <div class="brand-text">
-            <span class="brand-main">VISION <span>INFRA</span></span>
-            <span class="brand-sub">Equipment Solutions</span>
-          </div>
+        <a class="brand" href="index.html">
+          <div class="brand-logo-wrap"><img src="images/logo.jpeg" alt="Vision Infra logo"></div>
+          <div class="brand-text"><span class="brand-main">VISION <span>INFRA</span></span><span class="brand-sub">Equipment Solutions LTD.</span></div>
         </a>
-
         <div class="nav-links">
-          <!-- Equipment dropdown -->
-          <div class="nav-dropdown" id="dd-equip">
-            <span class="nav-link dropdown-toggle" tabindex="0">
-              Equipment <i class="fas fa-chevron-down caret" style="font-size:.65rem"></i>
-            </span>
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="about-us.html">About Us</a>
+          <div class="nav-dropdown">
+            <a class="nav-link dropdown-toggle" href="services.html">Services <i class="fas fa-chevron-down caret" style="font-size:.6rem"></i></a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="#" onclick="showPage('rental');return false"><i
-                  class="fas fa-calendar-alt"></i>Rental Equipments</a>
-              <a class="dropdown-item" href="#" onclick="showPage('used');return false"><i class="fas fa-box"></i>Used
-                Equipments</a>
+              <a class="dropdown-item" href="services.html#rental"><i class="fas fa-calendar-alt"></i>Rental Equipments</a>
+              <a class="dropdown-item" href="services.html#used"><i class="fas fa-box"></i>Used Equipments</a>
             </div>
           </div>
-          <a class="nav-link" href="#" onclick="showPage('company');return false">Company</a>
-          <a class="nav-link" href="#" onclick="showPage('projects');return false">Projects</a>
-          <a class="nav-link" href="#" onclick="showPage('team');return false">Team</a>
-          <!-- Investors dropdown -->
-          <div class="nav-dropdown" id="dd-inv">
-            <span class="nav-link dropdown-toggle" tabindex="0">
-              Investors <i class="fas fa-chevron-down caret" style="font-size:.65rem"></i>
-            </span>
+          <a class="nav-link" href="projects.html">Projects</a>
+          <a class="nav-link" href="clients.html">Clients</a>
+          <a class="nav-link" href="faq.html">FAQ</a>
+          <div class="nav-dropdown">
+            <a class="nav-link dropdown-toggle" href="investor.html">Investors <i class="fas fa-chevron-down caret" style="font-size:.6rem"></i></a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="#" onclick="showPage('investor');return false"><i
-                  class="fas fa-chart-pie"></i>Investment Overview</a>
+              <a class="dropdown-item" href="investor.html"><i class="fas fa-chart-pie"></i>Investment Overview</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#"><i class="fas fa-file-pdf"></i>Financial Reports</a>
-              <a class="dropdown-item" href="#"><i class="fas fa-shield-alt"></i>Corporate Governance</a>
-              <a class="dropdown-item" href="#"><i class="fas fa-star"></i>Investment Opportunities</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="mailto:cs@visioninfraindia.com"><i class="fas fa-envelope"></i>Investor
-                Contact</a>
+              <a class="dropdown-item" href="investor.html#reports"><i class="fas fa-file-pdf"></i>Financial Reports</a>
+              <a class="dropdown-item" href="investor.html#governance"><i class="fas fa-shield-alt"></i>Corporate Governance</a>
+              <a class="dropdown-item" href="mailto:cs@visioninfraindia.com"><i class="fas fa-envelope"></i>Investor Contact</a>
             </div>
           </div>
-          <a class="nav-link" href="#" onclick="showPage('career');return false">Career</a>
-          <button class="nav-cta-btn" onclick="showPage('contact')">Contact Us</button>
+          <a class="nav-link" href="career.html">Career</a>
+          <a class="nav-cta-btn" href="contact.html">Contact Us</a>
         </div>
-
-        <button class="nav-toggle" id="nav-toggle" aria-label="Menu" aria-expanded="false">
-          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
-        </button>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Menu" aria-expanded="false"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
       </div>
-
-      <!-- Mobile menu -->
       <nav class="nav-mobile" id="nav-mobile">
-        <a class="nav-link" href="#" onclick="showPage('home');closeMobile();return false">Home</a>
-        <a class="nav-link" href="#" onclick="showPage('rental');closeMobile();return false">Rental Equipments</a>
-        <a class="nav-link" href="#" onclick="showPage('used');closeMobile();return false">Used Equipments</a>
-        <a class="nav-link" href="#" onclick="showPage('company');closeMobile();return false">Company</a>
-        <a class="nav-link" href="#" onclick="showPage('projects');closeMobile();return false">Projects</a>
-        <a class="nav-link" href="#" onclick="showPage('team');closeMobile();return false">Team</a>
-        <a class="nav-link" href="#" onclick="showPage('investor');closeMobile();return false">Investor Relations</a>
-        <a class="nav-link" href="#" onclick="showPage('career');closeMobile();return false">Career</a>
-        <button class="nav-cta-btn w-100" onclick="showPage('contact');closeMobile()">Contact Us</button>
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about-us.html">About Us</a>
+        <a class="nav-link" href="services.html">Services</a>
+        <a class="nav-link" href="services.html#rental">Rental Equipments</a>
+        <a class="nav-link" href="services.html#used">Used Equipments</a>
+        <a class="nav-link" href="projects.html">Projects</a>
+        <a class="nav-link" href="clients.html">Clients</a>
+        <a class="nav-link" href="faq.html">FAQ</a>
+        <a class="nav-link" href="team.html">Team</a>
+        <a class="nav-link" href="investor.html">Investor Relations</a>
+        <a class="nav-link" href="career.html">Career</a>
+        <a class="nav-cta-btn w-100" href="contact.html">Contact Us</a>
       </nav>
     </div>
   </nav>
+  <main id="main-content"><div class="page active">
 
-  <!-- ═══════════════════════════════════════════════════
-     PAGES
-     ═══════════════════════════════════════════════════ -->
-  <main id="main-content">
-
-    <!-- ── HOME ─────────────────────────────────────────────────────── -->
-    <div class="page active" id="page-home">
-
-      <!-- Hero -->
       <section id="hero">
         <video class="hero-video" autoplay muted loop playsinline preload="auto" aria-hidden="true">
           <source src="images/video1.mp4" type="video/mp4" />
@@ -122,30 +87,31 @@
         <div class="hero-orb1"></div>
         <div class="hero-orb2"></div>
         <div class="hero-content reveal">
-          <div class="banner-badge"><span class="dot"></span>India's Premier Equipment Partner</div>
-          <h1>We Equip<br /><span class="c">Your</span> <span class="y">Vision</span></h1>
-          <p>Premium Infrastructure Equipment Rental & Trading Solutions — powering India's most ambitious construction
-            projects.</p>
-          <div class="hero-btns">
-            <button class="btn-amber" onclick="showPage('contact')"><i class="fas fa-envelope"></i>Enquire Now</button>
-            <button class="btn-ghost" onclick="showPage('rental')"><i class="fas fa-tools"></i>View Equipment</button>
-          </div>
-          <div class="hero-stats">
-            <div class="hstat">
-              <div class="hstat-num"><span class="counter" data-target="20">0</span>+</div>
-              <div class="hstat-lbl">Years Experience</div>
+          <div class="container">
+            <div class="banner-badge"><span class="dot"></span>India's Premier Equipment Partner</div>
+            <h1>We Equip<br /><span class="c">Your</span> <span class="y">Vision</span></h1>
+            <p>Premium Infrastructure Equipment Rental &amp; Trading Solutions â€” powering India's most ambitious construction projects.</p>
+            <div class="hero-btns">
+              <button class="btn-amber" onclick="window.location.href='contact.html'"><i class="fas fa-envelope"></i>Enquire Now</button>
+              <button class="btn-ghost" onclick="window.location.href='services.html#rental'"><i class="fas fa-tools"></i>View Equipment</button>
             </div>
-            <div class="hstat">
-              <div class="hstat-num" style="font-size:1.6rem;color:#38BDF8">Rental</div>
-              <div class="hstat-lbl">Equipment Solutions</div>
-            </div>
-            <div class="hstat">
-              <div class="hstat-num" style="font-size:1.6rem;color:#38BDF8">Used</div>
-              <div class="hstat-lbl">Equipment Trading</div>
-            </div>
-            <div class="hstat">
-              <div class="hstat-num" style="font-size:1.6rem;color:#38BDF8">Pan-India</div>
-              <div class="hstat-lbl">Coverage</div>
+            <div class="hero-stats">
+              <div class="hstat">
+                <div class="hstat-num"><span class="counter" data-target="20">0</span>+</div>
+                <div class="hstat-lbl">Years Experience</div>
+              </div>
+              <div class="hstat">
+                <div class="hstat-num" style="font-size:1.5rem">Rental</div>
+                <div class="hstat-lbl">Equipment Solutions</div>
+              </div>
+              <div class="hstat">
+                <div class="hstat-num" style="font-size:1.5rem">Used</div>
+                <div class="hstat-lbl">Equipment Trading</div>
+              </div>
+              <div class="hstat">
+                <div class="hstat-num" style="font-size:1.5rem">Pan-India</div>
+                <div class="hstat-lbl">Coverage</div>
+              </div>
             </div>
           </div>
         </div>
@@ -162,87 +128,58 @@
             <h2 class="section-title">Top-notch Equipment.<br />You can rely on.</h2>
             <p class="section-subtitle">Quality brands for peak performance across all project scales</p>
           </div>
-          <div class="row cols-3" id="featured-equip-grid">
-            <!-- JS injected -->
-          </div>
+          <div class="row cols-3" id="featured-equip-grid"></div>
           <div class="text-center mt-60 reveal">
-            <button class="btn-primary" onclick="showPage('rental')">View All Rental Equipment <i
-                class="fas fa-arrow-right"></i></button>
+            <button class="btn-primary" onclick="window.location.href='services.html#rental'">View All Rental Equipment <i class="fas fa-arrow-right"></i></button>
           </div>
         </div>
       </section>
 
       <!-- Why Different -->
-      <section class="py-5" style="background:linear-gradient(180deg,#fff 0%,#F0F7FF 100%)">
+      <section class="py-5" style="background:var(--charcoal)">
         <div class="container">
           <div class="text-center mb-60 reveal">
             <div class="section-tag">Our Edge</div>
             <h2 class="section-title">We're Different Because</h2>
           </div>
           <div class="row cols-4">
-            <div class="reveal d1">
-              <div class="feature-box">
-                <div class="feature-icon"><i class="fas fa-trophy"></i></div>
-                <h5>High-End Brands for Peak Performance</h5>
-                <p>We exclusively stock quality brands known for superior productivity and reliability.</p>
-              </div>
-            </div>
-            <div class="reveal d2">
-              <div class="feature-box">
-                <div class="feature-icon"><i class="fas fa-headset"></i></div>
-                <h5>Expert Advice Beyond the Sale</h5>
-                <p>From purchase advice to maintenance tips and collaborative solutions.</p>
-              </div>
-            </div>
-            <div class="reveal d3">
-              <div class="feature-box">
-                <div class="feature-icon"><i class="fas fa-check-circle"></i></div>
-                <h5>Dedicated to Excellence in Delivery</h5>
-                <p>Our team ensures machinery arrives in peak condition, meeting your high standards.</p>
-              </div>
-            </div>
-            <div class="reveal d4">
-              <div class="feature-box">
-                <div class="feature-icon"><i class="fas fa-globe"></i></div>
-                <h5>Our Access to the Unreachable</h5>
-                <p>Leverage our network for hard-to-find or out-of-stock machines.</p>
-              </div>
-            </div>
+            <div class="reveal d1"><div class="feature-box">
+              <div class="feature-icon"><i class="fas fa-trophy"></i></div>
+              <h5>High-End Brands for Peak Performance</h5>
+              <p>We exclusively stock quality brands known for superior productivity and reliability.</p>
+            </div></div>
+            <div class="reveal d2"><div class="feature-box">
+              <div class="feature-icon"><i class="fas fa-headset"></i></div>
+              <h5>Expert Advice Beyond the Sale</h5>
+              <p>From purchase advice to maintenance tips and collaborative solutions.</p>
+            </div></div>
+            <div class="reveal d3"><div class="feature-box">
+              <div class="feature-icon"><i class="fas fa-check-circle"></i></div>
+              <h5>Dedicated to Excellence in Delivery</h5>
+              <p>Our team ensures machinery arrives in peak condition, meeting your high standards.</p>
+            </div></div>
+            <div class="reveal d4"><div class="feature-box">
+              <div class="feature-icon"><i class="fas fa-globe"></i></div>
+              <h5>Our Access to the Unreachable</h5>
+              <p>Leverage our network for hard-to-find or out-of-stock machines.</p>
+            </div></div>
           </div>
         </div>
       </section>
 
       <!-- About split -->
-      <section class="py-5">
+      <section class="py-5 bg-off">
         <div class="container">
           <div class="row cols-2" style="align-items:center;gap:56px">
             <div class="reveal">
               <div class="section-tag">About VIESL</div>
               <h2 class="section-title">Our job is to get yours done. Quickly &amp; safely.</h2>
-              <p class="text-muted mb-4" style="line-height:1.75">At VIESL, we work with everyone from big construction
-                sites to small private projects. No matter the size, our promise is the same: the right equipment and
-                support to bring your vision to life.</p>
+              <p class="text-muted mb-4" style="line-height:1.75;font-size:.9rem">At VIESL, we work with everyone from big construction sites to small private projects. No matter the size, our promise is the same: the right equipment and support to bring your vision to life.</p>
               <ul class="bene-list">
-                <li>
-                  <div class="bene-icon"><i class="fas fa-check"></i></div>
-                  <div class="bene-txt"><strong>20+ Years Experience</strong><span>Decades of expertise in
-                      infrastructure equipment</span></div>
-                </li>
-                <li>
-                  <div class="bene-icon"><i class="fas fa-check"></i></div>
-                  <div class="bene-txt"><strong>Premium Equipment Fleet</strong><span>Quality brands known for
-                      productivity and reliability</span></div>
-                </li>
-                <li>
-                  <div class="bene-icon"><i class="fas fa-check"></i></div>
-                  <div class="bene-txt"><strong>24/7 Technical Support</strong><span>Round-the-clock assistance wherever
-                      you are</span></div>
-                </li>
-                <li>
-                  <div class="bene-icon"><i class="fas fa-check"></i></div>
-                  <div class="bene-txt"><strong>Pan-India Presence</strong><span>Nationwide delivery and support
-                      network</span></div>
-                </li>
+                <li><div class="bene-icon"><i class="fas fa-check"></i></div><div class="bene-txt"><strong>20+ Years Experience</strong><span>Decades of expertise in infrastructure equipment</span></div></li>
+                <li><div class="bene-icon"><i class="fas fa-check"></i></div><div class="bene-txt"><strong>Premium Equipment Fleet</strong><span>Quality brands known for productivity and reliability</span></div></li>
+                <li><div class="bene-icon"><i class="fas fa-check"></i></div><div class="bene-txt"><strong>24/7 Technical Support</strong><span>Round-the-clock assistance wherever you are</span></div></li>
+                <li><div class="bene-icon"><i class="fas fa-check"></i></div><div class="bene-txt"><strong>Pan-India Presence</strong><span>Nationwide delivery and support network</span></div></li>
               </ul>
             </div>
             <div class="reveal d2">
@@ -254,20 +191,17 @@
                 </div>
                 <div class="stat-card">
                   <div class="stat-icon"><i class="fas fa-cogs"></i></div>
-                  <div class="stat-num" style="font-size:1.3rem;background:none;-webkit-text-fill-color:var(--navy)">
-                    Rental</div>
+                  <div class="stat-num" style="font-size:1.1rem;background:none;-webkit-text-fill-color:var(--white)">Rental</div>
                   <div class="stat-lbl">Equipment Solutions</div>
                 </div>
                 <div class="stat-card">
                   <div class="stat-icon"><i class="fas fa-users"></i></div>
-                  <div class="stat-num" style="font-size:1.3rem;background:none;-webkit-text-fill-color:var(--navy)">
-                    Trading</div>
+                  <div class="stat-num" style="font-size:1.1rem;background:none;-webkit-text-fill-color:var(--white)">Trading</div>
                   <div class="stat-lbl">Refurbished Equipment</div>
                 </div>
                 <div class="stat-card">
                   <div class="stat-icon"><i class="fas fa-map"></i></div>
-                  <div class="stat-num" style="font-size:1.3rem;background:none;-webkit-text-fill-color:var(--navy)">
-                    Pan-India</div>
+                  <div class="stat-num" style="font-size:1.1rem;background:none;-webkit-text-fill-color:var(--white)">Pan-India</div>
                   <div class="stat-lbl">Coverage</div>
                 </div>
               </div>
@@ -284,14 +218,15 @@
             <h2 class="section-title">Our Contribution to<br />Benchmark Projects</h2>
             <p class="section-subtitle">Trusted by India's leading construction companies</p>
           </div>
-          <div class="row cols-3" id="home-proj-grid"><!-- JS --></div>
-          <div class="text-center mt-60 reveal"><button class="btn-ghost" onclick="showPage('projects')">See All
-              Projects <i class="fas fa-arrow-right"></i></button></div>
+          <div class="row cols-3" id="home-proj-grid"></div>
+          <div class="text-center mt-60 reveal">
+            <button class="btn-ghost" onclick="window.location.href='projects.html'">See All Projects <i class="fas fa-arrow-right"></i></button>
+          </div>
         </div>
       </section>
 
       <!-- Testimonials -->
-      <section class="py-5">
+      <section class="py-5 bg-off">
         <div class="container">
           <div class="text-center mb-60 reveal">
             <div class="section-tag">Social Proof</div>
@@ -299,1189 +234,56 @@
             <p class="section-subtitle">Trusted by industry leaders</p>
           </div>
           <div class="row cols-2">
-            <div class="reveal d1">
-              <div class="testi-card">
-                <div class="testi-text">"VIESL in recognition of your contribution in Mission 100 in 100 in which L&T
-                  set records for longest length and highest quantity of asphalt laid in 100 hours."</div>
-                <div class="testi-author">Mr. Manish Kumar Agarwal</div>
-                <div class="testi-pos">Operations Head - North Segment, L&T Construction</div>
-              </div>
-            </div>
-            <div class="reveal d2">
-              <div class="testi-card">
-                <div class="testi-text">"VIESL thank you for being part of the journey called Construction of Access
-                  Controlled Nagpur-Mumbai Super Communication Expressway Package-2."</div>
-                <div class="testi-author">Mr. Krishnamurthy</div>
-                <div class="testi-pos">Project Director, Samruddhi Mahamarg</div>
-              </div>
-            </div>
-            <div class="reveal d3">
-              <div class="testi-card">
-                <div class="testi-text">"Vision Infra Equipment Solutions Limited has been an exceptional partner to the
-                  WIRTGEN GROUP, with commendable success in the specialized equipment rental space."</div>
-                <div class="testi-author">Mr. Gaurav Panwar</div>
-                <div class="testi-pos">Vice President, Head of Sales, Wirtgen India Pvt. Ltd.</div>
-              </div>
-            </div>
-            <div class="reveal d4">
-              <div class="testi-card">
-                <div class="testi-text">"They have proven to be a one-stop solution for road construction equipment
-                  requirements with excellent support and 24x7 availability for problem resolution."</div>
-                <div class="testi-author">Mr. Sanjay Patil</div>
-                <div class="testi-pos">Founder, Chairman and Managing Director, Markolines Pavement Technologies Limited</div>
-              </div>
-            </div>
+            <div class="reveal d1"><div class="testi-card">
+              <div class="testi-text">"VIESL in recognition of your contribution in Mission 100 in 100 in which L&amp;T set records for longest length and highest quantity of asphalt laid in 100 hours."</div>
+              <div class="testi-author">Mr. Manish Kumar Agarwal</div>
+              <div class="testi-pos">Operations Head - North Segment, L&T Construction</div>
+            </div></div>
+            <div class="reveal d2"><div class="testi-card">
+              <div class="testi-text">"VIESL thank you for being part of the journey called Construction of Access Controlled Nagpur-Mumbai Super Communication Expressway Package-2."</div>
+              <div class="testi-author">Mr. Krishnamurthy</div>
+              <div class="testi-pos">Project Director, Samruddhi Mahamarg</div>
+            </div></div>
+            <div class="reveal d3"><div class="testi-card">
+              <div class="testi-text">"Vision Infra Equipment Solutions Limited has been an exceptional partner to the WIRTGEN GROUP, with commendable success in the specialized equipment rental space."</div>
+              <div class="testi-author">Mr. Gaurav Panwar</div>
+              <div class="testi-pos">Vice President, Head of Sales, Wirtgen India Pvt. Ltd.</div>
+            </div></div>
+            <div class="reveal d4"><div class="testi-card">
+              <div class="testi-text">"They have proven to be a one-stop solution for road construction equipment requirements with excellent support and 24x7 availability for problem resolution."</div>
+              <div class="testi-author">Mr. Sanjay Patil</div>
+              <div class="testi-pos">Founder, Chairman and Managing Director, Markolines Pavement Technologies Limited</div>
+            </div></div>
           </div>
         </div>
       </section>
 
-      <!-- CTA -->
       <section class="vi-cta">
         <div class="container reveal">
           <h2>Ready to Get Started?</h2>
-          <p class="sub">Let us help you find the perfect equipment for your project.</p><button class="btn-amber"
-            onclick="showPage('contact')"><i class="fas fa-envelope"></i>Contact Us Now</button>
+          <p class="sub">Let us help you find the perfect equipment for your project.</p>
+          <button class="btn-amber" onclick="window.location.href='contact.html'"><i class="fas fa-envelope"></i>Contact Us Now</button>
         </div>
       </section>
     </div>
 
-    <!-- ── COMPANY ───────────────────────────────────────────────────── -->
-    <div class="page" id="page-company">
-      <div class="page-banner">
-        <div class="container">
-          <div class="banner-icon"><i class="fas fa-building"></i></div>
-          <h1>About Us</h1>
-          <p class="lead">Vision Infra Equipment Solutions Limited</p>
-        </div>
-      </div>
-
-      <section class="py-5">
-        <div class="container">
-          <div class="row cols-2-1" style="align-items:start;gap:48px">
-            <div>
-              <div class="reveal">
-                <div class="section-tag">Our Journey</div>
-                <h2 class="section-title">Two Decades of Excellence</h2>
-                <p class="text-muted" style="line-height:1.75;margin-bottom:28px">With over two decades of experience in
-                  the infrastructure equipment rental and trading space, Vision Infra Equipment Solutions Limited
-                  (VIESL) has established itself as a trusted partner for construction companies across India.</p>
-              </div>
-              <div class="mv-block mission reveal">
-                <h3><i class="fas fa-bullseye"></i>Our Mission</h3>
-                <p>To provide premium quality infrastructure equipment and exceptional service to help our clients
-                  achieve their project goals efficiently and safely.</p>
-              </div>
-              <div class="mv-block vision reveal">
-                <h3><i class="fas fa-eye"></i>Our Vision</h3>
-                <p>To be India's leading infrastructure equipment rental and trading solution provider, known for
-                  reliability, quality, and customer-centric service.</p>
-              </div>
-              <h3
-                style="font-family:'Montserrat',sans-serif;font-size:1.3rem;font-weight:700;color:var(--navy);margin:32px 0 16px"
-                class="reveal">Why Choose Us?</h3>
-              <ul class="bene-list reveal">
-                <li>
-                  <div class="bene-icon"><i class="fas fa-check"></i></div>
-                  <div class="bene-txt"><strong>Extensive Equipment Range</strong><span>Rental and used equipment
-                      categories for road, infrastructure, and construction needs</span></div>
-                </li>
-                <li>
-                  <div class="bene-icon"><i class="fas fa-check"></i></div>
-                  <div class="bene-txt"><strong>Quality Brands</strong><span>Only high-end, reliable brands with proven
-                      track records</span></div>
-                </li>
-                <li>
-                  <div class="bene-icon"><i class="fas fa-check"></i></div>
-                  <div class="bene-txt"><strong>Expert Support</strong><span>24/7 technical assistance and
-                      maintenance</span></div>
-                </li>
-                <li>
-                  <div class="bene-icon"><i class="fas fa-check"></i></div>
-                  <div class="bene-txt"><strong>Pan-India Coverage</strong><span>Nationwide presence for quick delivery
-                      and support</span></div>
-                </li>
-                <li>
-                  <div class="bene-icon"><i class="fas fa-check"></i></div>
-                  <div class="bene-txt"><strong>Competitive Pricing</strong><span>Best value for your investment</span>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="reveal d2">
-              <div class="vi-form">
-                <h5>Quick Stats</h5>
-                <div style="display:grid;gap:16px">
-                  <div class="stat-card">
-                    <div class="stat-num">20+</div>
-                    <div class="stat-lbl">Years in Business</div>
-                  </div>
-                  <div class="stat-card">
-                    <div class="stat-num" style="font-size:1.4rem;background:none;-webkit-text-fill-color:var(--navy)">
-                      Rental</div>
-                    <div class="stat-lbl">Equipment Solutions</div>
-                  </div>
-                  <div class="stat-card">
-                    <div class="stat-num" style="font-size:1.4rem;background:none;-webkit-text-fill-color:var(--navy)">
-                      Used</div>
-                    <div class="stat-lbl">Equipment Trading</div>
-                  </div>
-                  <div class="stat-card" style="padding:20px 24px">
-                    <div class="stat-num" style="font-size:1.4rem;background:none;-webkit-text-fill-color:var(--navy)">
-                      Pan-India</div>
-                    <div class="stat-lbl">Network Coverage</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="py-5 bg-gradient-blue">
-        <div class="container">
-          <div class="text-center mb-60 reveal">
-            <div class="section-tag">What We Stand For</div>
-            <h2 class="section-title">Our Core Values</h2>
-          </div>
-          <div class="row cols-4">
-            <div class="reveal d1">
-              <div class="feature-box">
-                <div class="feature-icon"><i class="fas fa-handshake"></i></div>
-                <h5>Integrity</h5>
-                <p>We conduct our business with honesty and transparency in all dealings.</p>
-              </div>
-            </div>
-            <div class="reveal d2">
-              <div class="feature-box">
-                <div class="feature-icon"><i class="fas fa-star"></i></div>
-                <h5>Excellence</h5>
-                <p>We strive for excellence in every aspect of our service delivery.</p>
-              </div>
-            </div>
-            <div class="reveal d3">
-              <div class="feature-box">
-                <div class="feature-icon"><i class="fas fa-users"></i></div>
-                <h5>Customer Focus</h5>
-                <p>Our clients are at the center of everything we do.</p>
-              </div>
-            </div>
-            <div class="reveal d4">
-              <div class="feature-box">
-                <div class="feature-icon"><i class="fas fa-leaf"></i></div>
-                <h5>Sustainability</h5>
-                <p>We are committed to environmentally responsible practices.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="vi-cta">
-        <div class="container reveal">
-          <h2>Let's Work Together</h2>
-          <p class="sub">Get in touch with us today for your equipment needs.</p><button class="btn-amber"
-            onclick="showPage('contact')"><i class="fas fa-envelope"></i>Contact Us</button>
-        </div>
-      </section>
-    </div>
-
-    <!-- ── CAREER ─────────────────────────────────────────────────────── -->
-    <div class="page" id="page-career">
-      <div class="page-banner">
-        <div class="container">
-          <div class="banner-icon"><i class="fas fa-briefcase"></i></div>
-          <div class="banner-badge"><span class="dot"></span>We're Hiring</div>
-          <h1>Career Opportunities</h1>
-          <p class="lead">Join a team of innovators in infrastructure equipment</p>
-        </div>
-      </div>
-
-      <section class="py-5">
-        <div class="container">
-          <div class="row cols-2-1" style="align-items:start;gap:48px">
-            <div>
-              <div class="reveal">
-                <div class="section-tag">Work With Us</div>
-                <h2 class="section-title">Build Your Career at VIESL</h2>
-                <p class="text-muted" style="line-height:1.75;margin-bottom:32px">At Vision Infra Equipment Solutions,
-                  we believe our success is driven by our talented and dedicated team. We're committed to creating an
-                  inclusive work environment where innovation thrives and career growth is encouraged.</p>
-              </div>
-              <h3
-                style="font-family:'Montserrat',sans-serif;font-size:1.3rem;font-weight:700;color:var(--navy);margin-bottom:16px"
-                class="reveal">Why Join VIESL?</h3>
-              <ul class="bene-list reveal">
-                <li>
-                  <div class="bene-icon"><i class="fas fa-check"></i></div>
-                  <div class="bene-txt"><strong>Growth Opportunities</strong><span>Develop your skills in a growing
-                      organization</span></div>
-                </li>
-                <li>
-                  <div class="bene-icon"><i class="fas fa-check"></i></div>
-                  <div class="bene-txt"><strong>Competitive Compensation</strong><span>Industry-leading salary and
-                      benefits</span></div>
-                </li>
-                <li>
-                  <div class="bene-icon"><i class="fas fa-check"></i></div>
-                  <div class="bene-txt"><strong>Professional Development</strong><span>Training and certification
-                      programs</span></div>
-                </li>
-                <li>
-                  <div class="bene-icon"><i class="fas fa-check"></i></div>
-                  <div class="bene-txt"><strong>Work Culture</strong><span>Collaborative and supportive team
-                      environment</span></div>
-                </li>
-                <li>
-                  <div class="bene-icon"><i class="fas fa-check"></i></div>
-                  <div class="bene-txt"><strong>Career Path</strong><span>Clear advancement opportunities</span></div>
-                </li>
-              </ul>
-              <h3
-                style="font-family:'Montserrat',sans-serif;font-size:1.3rem;font-weight:700;color:var(--navy);margin:36px 0 20px"
-                class="reveal">Current Openings</h3>
-              <div class="row cols-2 g-3">
-                <div class="reveal d1">
-                  <div class="job-card">
-                    <h5>Operations Manager</h5>
-                    <div class="job-loc"><i class="fas fa-map-marker-alt"></i>Pune, Mumbai, Bangalore</div>
-                    <p class="job-desc">5+ years experience in equipment management required.</p><button
-                      class="btn-primary btn-sm">Apply Now <i class="fas fa-arrow-right"></i></button>
-                  </div>
-                </div>
-                <div class="reveal d2">
-                  <div class="job-card">
-                    <h5>Sales Executive</h5>
-                    <div class="job-loc"><i class="fas fa-map-marker-alt"></i>Pan-India</div>
-                    <p class="job-desc">Background in construction equipment sales preferred.</p><button
-                      class="btn-primary btn-sm">Apply Now <i class="fas fa-arrow-right"></i></button>
-                  </div>
-                </div>
-                <div class="reveal d3">
-                  <div class="job-card">
-                    <h5>Technical Support Engineer</h5>
-                    <div class="job-loc"><i class="fas fa-map-marker-alt"></i>Regional Hubs</div>
-                    <p class="job-desc">Equipment maintenance and repair experience needed.</p><button
-                      class="btn-primary btn-sm">Apply Now <i class="fas fa-arrow-right"></i></button>
-                  </div>
-                </div>
-                <div class="reveal d4">
-                  <div class="job-card">
-                    <h5>Finance Analyst</h5>
-                    <div class="job-loc"><i class="fas fa-map-marker-alt"></i>Pune</div>
-                    <p class="job-desc">MBA/CA with financial analysis experience required.</p><button
-                      class="btn-primary btn-sm">Apply Now <i class="fas fa-arrow-right"></i></button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="reveal d2">
-              <div class="vi-form">
-                <h5>Send Your Resume</h5>
-                <p class="text-muted small mb-4" style="line-height:1.6">Don't see a matching position? We'd still like
-                  to hear from you.</p>
-                <div class="form-group"><label>Email Address</label><input type="email" class="form-control"
-                    placeholder="your@email.com" /></div>
-                <div class="form-group"><label>Position Interested In</label><input type="text" class="form-control"
-                    placeholder="e.g., Operations Manager" /></div>
-                <div class="form-group"><label>Attach Resume</label><input type="file" class="form-control" /></div>
-                <button class="btn-primary w-100"><i class="fas fa-paper-plane"></i>Send Your CV</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="py-5 bg-culture">
-        <div class="container">
-          <div class="text-center mb-60 reveal">
-            <div class="section-tag" style="color:#60A5FA;justify-content:center"><span
-                style="background:linear-gradient(90deg,#60A5FA,var(--cyan));width:22px;height:2px;border-radius:100px;display:inline-block"></span>Our
-              Culture</div>
-            <h2 class="section-title">Life at Vision Infra</h2>
-          </div>
-          <div class="row cols-4">
-            <div class="reveal d1">
-              <div class="feature-box">
-                <div class="feature-icon"><i class="fas fa-people-arrows"></i></div>
-                <h5>Collaboration</h5>
-                <p>Working together to achieve common goals and celebrate successes.</p>
-              </div>
-            </div>
-            <div class="reveal d2">
-              <div class="feature-box">
-                <div class="feature-icon"><i class="fas fa-lightbulb"></i></div>
-                <h5>Innovation</h5>
-                <p>Encouraging creative thinking and new ideas from all team members.</p>
-              </div>
-            </div>
-            <div class="reveal d3">
-              <div class="feature-box">
-                <div class="feature-icon"><i class="fas fa-graduation-cap"></i></div>
-                <h5>Learning</h5>
-                <p>Continuous skill development and professional growth opportunities.</p>
-              </div>
-            </div>
-            <div class="reveal d4">
-              <div class="feature-box">
-                <div class="feature-icon"><i class="fas fa-heart"></i></div>
-                <h5>Integrity</h5>
-                <p>Operating with honesty and transparency in all our dealings.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="vi-cta">
-        <div class="container reveal">
-          <h2>Ready to Make an Impact?</h2>
-          <p class="sub">Join our team and be part of India's infrastructure revolution.</p><button class="btn-amber"
-            onclick="showPage('contact')"><i class="fas fa-arrow-right"></i>Apply Now</button>
-        </div>
-      </section>
-    </div>
-
-    <!-- ── CONTACT ────────────────────────────────────────────────────── -->
-    <div class="page" id="page-contact">
-      <div class="page-banner">
-        <div class="container">
-          <div class="banner-icon"><i class="fas fa-envelope"></i></div>
-          <h1>Contact Us</h1>
-          <p class="lead">We'd love to hear from you. Get in touch with our team today.</p>
-        </div>
-      </div>
-
-      <section class="py-5">
-        <div class="container">
-          <div class="row cols-2" style="align-items:start;gap:48px">
-            <div>
-              <div class="reveal">
-                <div class="section-tag">Send a Message</div>
-                <h2 class="section-title">Get in Touch</h2>
-              </div>
-              <div class="vi-form reveal">
-                <div class="row cols-2 g-3">
-                  <div class="form-group"><label>Full Name</label><input type="text" class="form-control"
-                      placeholder="Your name" /></div>
-                  <div class="form-group"><label>Email Address</label><input type="email" class="form-control"
-                      placeholder="your@email.com" /></div>
-                </div>
-                <div class="form-group"><label>Phone Number</label><input type="tel" class="form-control"
-                    placeholder="+91 XXXXXXXXXX" /></div>
-                <div class="form-group"><label>Subject</label>
-                  <select class="form-control">
-                    <option>Select a subject</option>
-                    <option>Rental Inquiry</option>
-                    <option>Purchase Inquiry</option>
-                    <option>Technical Support</option>
-                    <option>Partnership</option>
-                    <option>Other</option>
-                  </select>
-                </div>
-                <div class="form-group"><label>Message</label><textarea class="form-control" rows="5"
-                    placeholder="Describe your inquiry..."></textarea></div>
-                <button class="btn-primary w-100" style="padding:14px;font-size:.95rem"><i
-                    class="fas fa-paper-plane"></i>Send Message</button>
-              </div>
-            </div>
-            <div>
-              <div class="reveal">
-                <div class="section-tag">Reach Us</div>
-                <h2 class="section-title">Contact Information</h2>
-              </div>
-              <div class="reveal">
-                <div class="contact-item">
-                  <div class="c-icon"><i class="fas fa-map-marker-alt"></i></div>
-                  <div class="c-body">
-                    <h5>Address</h5>
-                    <p>Vision Infra Equipment Solutions Limited<br />4th floor, International Business
-                      Bay<br />Gurunanak Nagar, Pune 411042<br />Maharashtra, India</p>
-                  </div>
-                </div>
-                <div class="contact-item">
-                  <div class="c-icon"><i class="fas fa-phone"></i></div>
-                  <div class="c-body">
-                    <h5>Phone</h5>
-                    <p><a href="tel:+912026440999">+91 20 2644 0999</a><br /><a href="tel:+918956891862">+91 89568
-                        91862</a></p>
-                  </div>
-                </div>
-                <div class="contact-item">
-                  <div class="c-icon"><i class="fas fa-envelope"></i></div>
-                  <div class="c-body">
-                    <h5>Email</h5>
-                    <p><a href="mailto:info@visioninfraindia.com">info@visioninfraindia.com</a><br /><a
-                        href="mailto:sales.ref@visioninfraindia.com">sales.ref@visioninfraindia.com</a></p>
-                  </div>
-                </div>
-                <div class="contact-item">
-                  <div class="c-icon"><i class="fas fa-clock"></i></div>
-                  <div class="c-body">
-                    <h5>Registered Details</h5>
-                    <p>CIN: L77309PN2024PLC227226<br />Website: www.visioninfraindia.com</p>
-                  </div>
-                </div>
-                <div class="contact-item">
-                  <div class="c-icon"><i class="fas fa-share-alt"></i></div>
-                  <div class="c-body">
-                    <h5>Follow Us</h5>
-                    <div class="soc-strip"><a class="soc-btn" href="#"><i class="fab fa-linkedin-in"></i></a><a
-                        class="soc-btn" href="#"><i class="fab fa-facebook-f"></i></a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="py-5 bg-off">
-        <div class="container">
-          <div class="text-center mb-60 reveal">
-            <div class="section-tag">Location</div>
-            <h2 class="section-title">Our Location</h2>
-          </div>
-          <div class="detail-img reveal" style="height:400px;overflow:hidden">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125.17023887790197!2d73.87326285249192!3d18.504344958100656!2m3!1f51.57405809165476!2f0!3f0!3m2!1i1024!2i768!4f45.108316228718856!3m3!1m2!1s0x3bc2eaa6e5c7e099%3A0xe7320bc63550743a!2sVision%20Infra%20Equipment%20Solutions%20Limited!5e1!3m2!1sen!2sin!4v1779799435134!5m2!1sen!2sin"
-              width="100%" height="400" style="border:0;display:block" allowfullscreen loading="lazy"></iframe>
-          </div>
-        </div>
-      </section>
-
-      <section class="py-5">
-        <div class="container">
-          <div class="text-center mb-60 reveal">
-            <div class="section-tag">FAQs</div>
-            <h2 class="section-title">Frequently Asked Questions</h2>
-          </div>
-          <div class="row cols-2">
-            <div>
-              <div class="faq-item reveal d1">
-                <h5>How do I rent equipment?</h5>
-                <p>Contact our sales team with your requirements. We'll provide a quotation and arrange delivery at your
-                  site.</p>
-              </div>
-              <div class="faq-item reveal d2">
-                <h5>Do you provide on-site support?</h5>
-                <p>Yes, we provide 24/7 technical support and maintenance for all rented equipment.</p>
-              </div>
-              <div class="faq-item reveal d3">
-                <h5>What is the minimum rental period?</h5>
-                <p>Minimum rental period varies by equipment type. Contact us for specific details.</p>
-              </div>
-            </div>
-            <div>
-              <div class="faq-item reveal d1">
-                <h5>Do you provide training?</h5>
-                <p>Yes, we can arrange operator training for complex equipment upon request.</p>
-              </div>
-              <div class="faq-item reveal d2">
-                <h5>What about insurance?</h5>
-                <p>Insurance can be arranged through us or you can provide your own coverage.</p>
-              </div>
-              <div class="faq-item reveal d3">
-                <h5>How quickly can you deliver?</h5>
-                <p>We typically deliver within 24–48 hours of confirmation based on location.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <!-- ── INVESTOR RELATIONS ──────────────────────────────────────────── -->
-    <div class="page" id="page-investor">
-      <div class="inv-hero">
-        <div class="container" style="position:relative;z-index:2">
-          <div class="inv-hero-inner">
-            <div class="inv-icon"><i class="fas fa-chart-line"></i></div>
-            <div class="banner-badge" style="margin-bottom:16px"><span class="dot"></span>Investor Relations</div>
-            <h1>Building Sustainable Value</h1>
-            <p class="lead">Strategic growth and transparent governance — partnering for a stronger tomorrow</p>
-          </div>
-        </div>
-      </div>
-
-      <section class="py-5 bg-off">
-        <div class="container">
-          <div class="row cols-4">
-            <div class="reveal d1">
-              <div class="stat-card">
-                <div class="stat-icon"><i class="fas fa-trophy"></i></div>
-                <div class="stat-num">20+</div>
-                <div class="stat-lbl">Years in Business</div>
-              </div>
-            </div>
-            <div class="reveal d2">
-              <div class="stat-card">
-                <div class="stat-icon"><i class="fas fa-cogs"></i></div>
-                <div class="stat-num" style="font-size:1.3rem;background:none;-webkit-text-fill-color:var(--navy)">
-                  Rental</div>
-                <div class="stat-lbl">Equipment Solutions</div>
-              </div>
-            </div>
-            <div class="reveal d3">
-              <div class="stat-card">
-                <div class="stat-icon"><i class="fas fa-users"></i></div>
-                <div class="stat-num" style="font-size:1.3rem;background:none;-webkit-text-fill-color:var(--navy)">
-                  Trading</div>
-                <div class="stat-lbl">Used Equipment</div>
-              </div>
-            </div>
-            <div class="reveal d4">
-              <div class="stat-card">
-                <div class="stat-icon"><i class="fas fa-map"></i></div>
-                <div class="stat-num" style="font-size:1.3rem;background:none;-webkit-text-fill-color:var(--navy)">
-                  Pan-India</div>
-                <div class="stat-lbl">Coverage</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="py-5">
-        <div class="container">
-          <div class="row cols-2" style="align-items:center;gap:56px">
-            <div class="reveal">
-              <div class="section-tag">Why Invest</div>
-              <h2 class="section-title">Investment Opportunity</h2>
-              <p class="text-muted mb-4" style="line-height:1.75">VIESL is redefining the infrastructure equipment
-                rental and trading space. We remain committed to bringing value to our partners and clients by
-                delivering solid financial results and operational excellence.</p>
-              <ul class="bene-list">
-                <li>
-                  <div class="bene-icon"><i class="fas fa-check"></i></div>
-                  <div class="bene-txt"><strong>Strong Track Record</strong><span>20+ years of consistent growth and
-                      profitability</span></div>
-                </li>
-                <li>
-                  <div class="bene-icon"><i class="fas fa-check"></i></div>
-                  <div class="bene-txt"><strong>Growing Market</strong><span>Infrastructure sector showing steady
-                      expansion and resilience</span></div>
-                </li>
-                <li>
-                  <div class="bene-icon"><i class="fas fa-check"></i></div>
-                  <div class="bene-txt"><strong>Diverse Revenue Streams</strong><span>Balanced portfolio between rental
-                      and trading businesses</span></div>
-                </li>
-                <li>
-                  <div class="bene-icon"><i class="fas fa-check"></i></div>
-                  <div class="bene-txt"><strong>Pan-India Network</strong><span>Strong presence across major
-                      metropolitan and tier-II markets</span></div>
-                </li>
-                <li>
-                  <div class="bene-icon"><i class="fas fa-check"></i></div>
-                  <div class="bene-txt"><strong>Professional Management</strong><span>Experienced team with deep
-                      industry expertise</span></div>
-                </li>
-              </ul>
-            </div>
-            <div class="reveal d2">
-              <div
-                style="height:460px;border-radius:20px;overflow:hidden;box-shadow:var(--sh-lg);background:linear-gradient(135deg,var(--royal),var(--blue),var(--cyan));display:flex;align-items:center;justify-content:center">
-                <div style="text-align:center;color:#fff;padding:40px">
-                  <i class="fas fa-chart-line" style="font-size:4rem;margin-bottom:24px;opacity:.9"></i>
-                  <div
-                    style="font-family:'Montserrat',sans-serif;font-size:2rem;font-weight:800;margin-bottom:10px">
-                    Growth Since 2004</div>
-                  <p style="opacity:.75;font-size:.95rem;line-height:1.6">Consistent year-over-year expansion in
-                    revenue, fleet size, and client base across India's infrastructure boom.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="py-5 bg-off">
-        <div class="container">
-          <div class="text-center mb-60 reveal">
-            <div class="section-tag">Financial Highlights</div>
-            <h2 class="section-title">Financial Performance</h2>
-            <p class="section-subtitle">Consistent performance and sustainable growth trajectory</p>
-          </div>
-          <div class="row cols-3">
-            <div class="reveal d1">
-              <div class="fin-card">
-                <div class="fin-icon"><i class="fas fa-coins"></i></div>
-                <h4>Revenue Growth</h4>
-                <div class="fin-val">Year-over-year</div>
-                <p class="fin-desc">Consistent upward trajectory driven by market demand and operational efficiency</p>
-              </div>
-            </div>
-            <div class="reveal d2">
-              <div class="fin-card">
-                <div class="fin-icon"><i class="fas fa-chart-bar"></i></div>
-                <h4>Asset Portfolio</h4>
-                <div class="fin-val">Rental + Trading</div>
-                <p class="fin-desc">Equipment solutions for road construction, mining, irrigation, lifting, and material handling</p>
-              </div>
-            </div>
-            <div class="reveal d3">
-              <div class="fin-card">
-                <div class="fin-icon"><i class="fas fa-handshake"></i></div>
-                <h4>Client Base</h4>
-                <div class="fin-val">Benchmark Projects</div>
-                <p class="fin-desc">Contributions to expressways, airport infrastructure, dams, plants, and high-speed rail projects</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="py-5">
-        <div class="container">
-          <div class="text-center mb-60 reveal">
-            <div class="section-tag">Opportunities</div>
-            <h2 class="section-title">Growth Opportunities</h2>
-            <p class="section-subtitle">Strategic markets and expansion potential</p>
-          </div>
-          <div class="row cols-4">
-            <div class="reveal d1">
-              <div class="opp-card"
-                style="background:linear-gradient(135deg,rgba(27,58,122,.9),rgba(37,99,235,.9)),url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&q=80') center/cover">
-                <div class="opp-body"><i class="fas fa-road"></i>
-                  <h5>Infrastructure Boom</h5>
-                  <p>India's ongoing infrastructure development creates sustained demand</p>
-                </div>
-              </div>
-            </div>
-            <div class="reveal d2">
-              <div class="opp-card"
-                style="background:linear-gradient(135deg,rgba(245,158,11,.85),rgba(239,68,68,.8)),url('https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=400&q=80') center/cover">
-                <div class="opp-body"><i class="fas fa-chart-line"></i>
-                  <h5>Market Expansion</h5>
-                  <p>Increasing equipment rental penetration in tier-II cities</p>
-                </div>
-              </div>
-            </div>
-            <div class="reveal d3">
-              <div class="opp-card" style="background:linear-gradient(135deg,rgba(6,182,212,.85),rgba(16,185,129,.8))">
-                <div class="opp-body"><i class="fas fa-leaf"></i>
-                  <h5>Sustainable Growth</h5>
-                  <p>Technology and automation investments in fleet management</p>
-                </div>
-              </div>
-            </div>
-            <div class="reveal d4">
-              <div class="opp-card" style="background:linear-gradient(135deg,rgba(139,92,246,.85),rgba(37,99,235,.8))">
-                <div class="opp-body"><i class="fas fa-globe"></i>
-                  <h5>Strategic Partnerships</h5>
-                  <p>Collaboration with global equipment manufacturers</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="py-5 bg-off">
-        <div class="container">
-          <div class="text-center mb-60 reveal">
-            <div class="section-tag">Governance</div>
-            <h2 class="section-title">Corporate Governance</h2>
-            <p class="section-subtitle">Commitment to transparency, accountability, and ethical practices</p>
-          </div>
-          <div class="row cols-3">
-            <div class="reveal d1">
-              <div class="gov-card">
-                <div class="gov-icon"><i class="fas fa-gavel"></i></div>
-                <h5>Board Leadership</h5>
-                <p>Experienced board members with proven track records in industry leadership and strategic management
-                </p>
-              </div>
-            </div>
-            <div class="reveal d2">
-              <div class="gov-card">
-                <div class="gov-icon"><i class="fas fa-lock"></i></div>
-                <h5>Compliance & Risk</h5>
-                <p>Rigorous compliance frameworks ensuring adherence to regulatory requirements and best practices</p>
-              </div>
-            </div>
-            <div class="reveal d3">
-              <div class="gov-card">
-                <div class="gov-icon"><i class="fas fa-eye"></i></div>
-                <h5>Transparency</h5>
-                <p>Regular disclosures and stakeholder communication maintaining highest standards of transparency</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="py-5">
-        <div class="container">
-          <div class="row cols-2" style="align-items:center;gap:56px">
-            <div class="co-info-card reveal">
-              <div class="co-info-title">Company Information</div>
-              <div class="info-row">
-                <div class="info-lbl"><i class="fas fa-certificate"></i>CIN</div>
-                <div class="info-val">L77309PN2024PLC227226</div>
-              </div>
-              <div class="info-row">
-                <div class="info-lbl"><i class="fas fa-map-marker-alt"></i>Registered Office</div>
-                <div class="info-val">4th Floor, International Business Bay<br />Gurunanak Nagar, Pune
-                  411042<br />Maharashtra, India</div>
-              </div>
-              <div class="info-row">
-                <div class="info-lbl"><i class="fas fa-phone"></i>Corporate Phone</div>
-                <div class="info-val"><a href="tel:+912026440999">+91 20 2644 0999</a></div>
-              </div>
-              <div class="info-row">
-                <div class="info-lbl"><i class="fas fa-envelope"></i>Investor Contact</div>
-                <div class="info-val"><a href="mailto:cs@visioninfraindia.com">cs@visioninfraindia.com</a></div>
-              </div>
-            </div>
-            <div class="reveal d2"
-              style="height:420px;border-radius:20px;overflow:hidden;background:linear-gradient(135deg,#0A1628,var(--royal),var(--blue));display:flex;align-items:center;justify-content:center;box-shadow:var(--sh-lg)">
-              <div style="text-align:center;color:#fff;padding:40px">
-                <i class="fas fa-shield-alt" style="font-size:3.5rem;margin-bottom:20px;color:#60A5FA"></i>
-                <div
-                  style="font-family:'Montserrat',sans-serif;font-size:1.8rem;font-weight:800;margin-bottom:10px">
-                  Trusted Since 2004</div>
-                <p style="opacity:.72;font-size:.9rem;line-height:1.65">Publicly listed company committed to the highest
-                  governance standards and investor transparency.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="vi-cta">
-        <div class="container reveal">
-          <h2>Ready to Partner With Us?</h2>
-          <p class="sub">Discover investment opportunities and join our growth journey</p>
-          <button class="btn-amber" onclick="window.location='mailto:cs@visioninfraindia.com'"><i
-              class="fas fa-envelope"></i>Contact Investor Relations</button>
-          <button class="btn-ghost" onclick="showPage('contact')"><i class="fas fa-phone"></i>Request
-            Information</button>
-        </div>
-      </section>
-    </div>
-
-    <!-- ── PLACEHOLDER PAGES ──────────────────────────────────────────── -->
-    <div class="page" id="page-rental">
-      <div class="page-banner">
-        <div class="container">
-          <div class="banner-icon"><i class="fas fa-calendar-alt"></i></div>
-          <h1>Rental Equipments</h1>
-          <p class="lead">Premium machinery available for short and long-term rental</p>
-        </div>
-      </div>
-      <section class="py-5 bg-off">
-        <div class="container">
-          <div class="text-center mb-60 reveal">
-            <div class="section-tag">Our Rental Fleet</div>
-            <h2 class="section-title">Available for Rent</h2>
-          </div>
-          <div class="row cols-3" id="rental-grid"><!-- JS --></div>
-        </div>
-      </section>
-      <section class="vi-cta">
-        <div class="container reveal">
-          <h2>Need Custom Rental Terms?</h2>
-          <p class="sub">Contact our team for tailored rental packages.</p><button class="btn-amber"
-            onclick="showPage('contact')"><i class="fas fa-envelope"></i>Get a Quote</button>
-        </div>
-      </section>
-    </div>
-
-    <div class="page" id="page-used">
-      <div class="page-banner">
-        <div class="container">
-          <div class="banner-icon"><i class="fas fa-box"></i></div>
-          <h1>Used Equipments</h1>
-          <p class="lead">Quality pre-owned machinery at competitive prices</p>
-        </div>
-      </div>
-      <section class="py-5 bg-off">
-        <div class="container">
-          <div class="text-center mb-60 reveal">
-            <div class="section-tag">Pre-Owned Inventory</div>
-            <h2 class="section-title">Quality Used Equipment</h2>
-          </div>
-          <div class="row cols-3" id="used-grid"><!-- JS --></div>
-        </div>
-      </section>
-      <section class="vi-cta">
-        <div class="container reveal">
-          <h2>Interested in Pre-Owned?</h2>
-          <p class="sub">Contact us for pricing and availability.</p><button class="btn-amber"
-            onclick="showPage('contact')"><i class="fas fa-envelope"></i>Enquire Now</button>
-        </div>
-      </section>
-    </div>
-
-    <div class="page" id="page-projects">
-      <div class="page-banner">
-        <div class="container">
-          <div class="banner-icon"><i class="fas fa-hard-hat"></i></div>
-          <h1>Our Projects</h1>
-          <p class="lead">Benchmark projects powered by Vision Infra equipment</p>
-        </div>
-      </div>
-      <section class="py-5 bg-off">
-        <div class="container">
-          <div class="text-center mb-60 reveal">
-            <div class="section-tag">Portfolio</div>
-            <h2 class="section-title">Benchmark Projects</h2>
-            <p class="section-subtitle">Trusted by India's leading construction companies</p>
-          </div>
-          <div class="row cols-3" id="all-proj-grid"><!-- JS --></div>
-        </div>
-      </section>
-      <section class="vi-cta">
-        <div class="container reveal">
-          <h2>Have a Project in Mind?</h2>
-          <p class="sub">Let's discuss how we can help you build it.</p><button class="btn-amber"
-            onclick="showPage('contact')"><i class="fas fa-envelope"></i>Get in Touch</button>
-        </div>
-      </section>
-    </div>
-
-    <div class="page" id="page-team">
-      <div class="page-banner">
-        <div class="container">
-          <div class="banner-icon"><i class="fas fa-users"></i></div>
-          <h1>Our Team</h1>
-          <p class="lead">The visionaries who drive Vision Infra forward</p>
-        </div>
-      </div>
-      <section class="py-5 bg-gradient-blue leaders-showcase">
-        <div class="container">
-          <div class="text-center mb-60 reveal">
-            <div class="section-tag">Leadership</div>
-            <h2 class="section-title">Meet Our Leaders</h2>
-          </div>
-          <div class="row cols-4" id="team-grid"><!-- JS --></div>
-        </div>
-      </section>
-      <section class="vi-cta">
-        <div class="container reveal">
-          <h2>Join Our Team</h2>
-          <p class="sub">We're always looking for talented individuals.</p><button class="btn-amber"
-            onclick="showPage('career')"><i class="fas fa-briefcase"></i>View Openings</button>
-        </div>
-      </section>
-    </div>
-
+    <!-- â”€â”€ COMPANY â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ -->
   </main>
-
-  <!-- ── FOOTER ──────────────────────────────────────────────────────── -->
   <footer>
     <div class="container footer-grid">
       <div class="footer-layout">
         <div>
-          <div class="footer-brand-lockup">
-            <div class="footer-brand-mark">VI</div>
-            <div>
-              <div class="footer-brand-name">Vision Infra</div>
-              <div class="footer-brand-sub">Equipment Solutions</div>
-            </div>
-          </div>
-          <p class="footer-desc">Premium Infrastructure Equipment Rental and Trading Solutions. Delivering excellence
-            across construction and core engineering landscapes.</p>
-          <address class="footer-addr" style="font-style:normal"><i class="fas fa-map-marker-alt"></i><span>4th floor,
-              International Business Bay,<br />Gurunanak Nagar, Pune 411042,<br />Maharashtra, India.</span></address>
+          <div class="footer-brand-lockup"><div class="footer-brand-mark">VI</div><div><div class="footer-brand-name">Vision Infra</div><div class="footer-brand-sub">Equipment Solutions</div></div></div>
+          <p class="footer-desc">Premium Infrastructure Equipment Rental and Trading Solutions. Delivering excellence across construction and core engineering landscapes.</p>
+          <address class="footer-addr" style="font-style:normal"><i class="fas fa-map-marker-alt"></i><span>4th floor, International Business Bay,<br />Gurunanak Nagar, Pune 411042,<br />Maharashtra, India.</span></address>
         </div>
-        <div>
-          <div class="footer-col-title">Quick Links</div>
-          <div class="footer-links" style="display:flex;flex-direction:column">
-            <a href="#" onclick="showPage('company');return false">Company Portfolio</a>
-            <a href="#" onclick="showPage('rental');return false">Rental Fleet</a>
-            <a href="#" onclick="showPage('used');return false">Pre-Owned Inventory</a>
-            <a href="#" onclick="showPage('projects');return false">Projects</a>
-            <a href="#" onclick="showPage('career');return false">Careers</a>
-          </div>
-        </div>
-        <div>
-          <div class="footer-col-title">Resources</div>
-          <div class="footer-links" style="display:flex;flex-direction:column">
-            <a href="#" onclick="showPage('team');return false">Executive Team</a>
-            <a href="#">Client Reviews</a>
-            <a href="#" onclick="showPage('investor');return false">Investor Relations</a>
-            <a href="#" onclick="showPage('contact');return false">Contact Desk</a>
-          </div>
-        </div>
-        <div>
-          <div class="footer-col-title">Global Connect</div>
-          <p style="font-size:.875rem;color:#8A92A8;margin-bottom:20px;line-height:1.65">Stay connected with our global
-            operations and updates.</p>
-          <div class="footer-socials">
-            <a class="footer-soc" href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-            <a class="footer-soc" href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a class="footer-soc" href="tel:+912026440999" aria-label="Phone"><i class="fas fa-phone-alt"></i></a>
-          </div>
-          <div class="footer-contact">
-            <div class="footer-contact-line"><i class="fas fa-phone-alt"></i><span>+91 20 2644 0999</span></div>
-            <div class="footer-contact-line"><i class="far fa-envelope"></i><a
-                href="mailto:info@visioninfraindia.com">info@visioninfraindia.com</a></div>
-          </div>
-        </div>
+        <div><div class="footer-col-title">Quick Links</div><div class="footer-links" style="display:flex;flex-direction:column"><a href="about-us.html">Company Portfolio</a><a href="services.html#rental">Rental Fleet</a><a href="services.html#used">Pre-Owned Inventory</a><a href="projects.html">Projects</a><a href="career.html">Careers</a></div></div>
+        <div><div class="footer-col-title">Resources</div><div class="footer-links" style="display:flex;flex-direction:column"><a href="team.html">Executive Team</a><a href="clients.html">Clients</a><a href="faq.html">FAQ</a><a href="investor.html">Investor Relations</a><a href="contact.html">Contact Desk</a></div></div>
+        <div><div class="footer-col-title">Global Connect</div><p style="font-size:.82rem;color:var(--silver);margin-bottom:16px;line-height:1.65">Stay connected with our global operations and updates.</p><div class="footer-socials"><a class="footer-soc" href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a><a class="footer-soc" href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><a class="footer-soc" href="tel:+912026440999" aria-label="Phone"><i class="fas fa-phone-alt"></i></a></div><div class="footer-contact"><div class="footer-contact-line"><i class="fas fa-phone-alt"></i><span>+91 20 2644 0999</span></div><div class="footer-contact-line"><i class="far fa-envelope"></i><a href="mailto:info@visioninfraindia.com">info@visioninfraindia.com</a></div></div></div>
       </div>
     </div>
-    <div class="footer-legal">
-      <div class="container">
-        <div class="inner">
-          <p class="copy">&copy; 2024 Vision Infra Equipment Solutions Limited "VIESL". All Rights Reserved.</p>
-          <nav class="legal-links"><a href="#">Privacy Policy</a><a href="#">Terms of Use</a><a href="#">Sitemap</a>
-          </nav>
-        </div>
-      </div>
-    </div>
+    <div class="footer-legal"><div class="container"><div class="inner"><p class="copy">&copy; 2024 Vision Infra Equipment Solutions Limited "VIESL". All Rights Reserved.</p><nav class="legal-links"><a href="#">Privacy Policy</a><a href="#">Terms of Use</a><a href="index.html">Sitemap</a></nav></div></div></div>
   </footer>
-
-  <!-- ════════════════════════════════════════════════
-     JAVASCRIPT
-     ════════════════════════════════════════════════ -->
-  <script>
-    (function () {
-      'use strict';
-
-      /* ── DATA ───────────────────────────────────────────────── */
-      const equipment = [
-        { id: 1, name: 'Crushers', type: 'rental', price: 'Enquire', unit: '', desc: 'Track mounted mobile crusher units for road and infrastructure projects.', specs: 'Make: TEREX / METSO / PROPEL, Capacity: 200-300 TPH', img: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&q=80' },
-        { id: 2, name: 'Milling Machine', type: 'rental', price: 'Enquire', unit: '', desc: 'Road milling machines for controlled removal of asphalt and concrete layers.', specs: 'Road rehabilitation, highway maintenance, resurfacing applications', img: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80' },
-        { id: 3, name: 'Soil Stabilizer', type: 'rental', price: 'Enquire', unit: '', desc: 'Soil stabilizer and cold recycler solutions for durable road foundations.', specs: 'Stabilization, cold recycling, sub-base improvement', img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80' },
-        { id: 4, name: 'Transit Mixer', type: 'used', price: 'Enquire', unit: '', desc: 'Pre-owned transit mixers for concrete transport and site batching workflows.', specs: 'Used equipment category: Transit Mixer', img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80' },
-        { id: 5, name: 'Wheel Loader', type: 'used', price: 'Enquire', unit: '', desc: 'Pre-owned wheel loaders for loading, stockpile handling, and plant support.', specs: 'Used equipment category: Wheel Loader', img: 'https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=600&q=80' },
-        { id: 6, name: 'Paver', type: 'used', price: 'Enquire', unit: '', desc: 'Used pavers for asphalt roadwork, highway construction, and resurfacing.', specs: 'Used equipment category: Paver', img: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80' },
-        { id: 7, name: 'Sensor Paver', type: 'rental', price: 'Enquire', unit: '', desc: 'Sensor paver machines for accurate asphalt paving and quality road finishes.', specs: 'Rental equipment category: Sensor Paver Machine', img: 'https://images.unsplash.com/photo-1483450388369-9ed95738483c?w=600&q=80' },
-        { id: 8, name: 'Diesel Generator', type: 'used', price: 'Enquire', unit: '', desc: 'Reliable DG sets and generators for project sites and backup power needs.', specs: 'Used equipment category: DG Sets / Diesel Generator', img: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&q=80' },
-        { id: 9, name: 'Road Milling Machine', type: 'used', price: 'Enquire', unit: '', desc: 'Pre-owned road milling machines for pavement removal and rehabilitation.', specs: 'Used equipment category: Road Milling Machine', img: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80' },
-      ];
-
-      const projects = [
-        { name: 'Maharashtra Samruddhi Mahamarg Expressway', loc: 'Maharashtra', desc: 'Benchmark expressway project supported by VIESL equipment solutions.', bg: 'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=600&q=80' },
-        { name: 'Mumbai Pune Expressway', loc: 'Maharashtra', desc: 'Contribution to one of India\'s key road connectivity corridors.', bg: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80' },
-        { name: 'Meerut Aligarh Ghaziabad Expressway', loc: 'North India', desc: 'Equipment support for major expressway construction and expansion.', bg: 'https://images.unsplash.com/photo-1483450388369-9ed95738483c?w=600&q=80' },
-        { name: 'Ahmedabad Vadodara Expressway', loc: 'Gujarat', desc: 'Infrastructure equipment contribution for a high-value highway corridor.', bg: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80' },
-        { name: 'Delhi Jaipur Expressway', loc: 'Delhi - Rajasthan', desc: 'Road construction equipment support for a major national route.', bg: 'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=600&q=80' },
-        { name: 'Delhi Vadodara Expressway', loc: 'North-West India', desc: 'Fleet support for large-scale expressway execution.', bg: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80' },
-        { name: 'MOPA, Goa Airport', loc: 'Goa', desc: 'Equipment contribution to airport infrastructure development.', bg: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&q=80' },
-        { name: 'Noida International Airport', loc: 'Uttar Pradesh', desc: 'Support for one of India\'s major greenfield airport projects.', bg: 'https://images.unsplash.com/photo-1483450388369-9ed95738483c?w=600&q=80' },
-        { name: 'Ahmedabad-Mumbai-C9 High Speed Rail Project', loc: 'Gujarat - Maharashtra', desc: 'Equipment contribution to the high speed rail corridor.', bg: 'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=600&q=80' },
-      ];
-
-      const team = [
-        { name: 'Sachin Gandhi', pos: 'Chairman & Managing Director', exp: 20, img: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&q=80' },
-        { name: 'Chetan Gandhi', pos: 'Director', exp: 15, img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80' },
-        { name: 'Sameer Gandhi', pos: 'Director', exp: 14, img: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&q=80' },
-        { name: 'Nilesh Pokharna', pos: 'Chief Financial Officer (CFO)', exp: 14, img: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&q=80' },
-      ];
-
-      /* ── RENDER HELPERS ─────────────────────────────────────── */
-      function equipCard(e) {
-        return `<div class="reveal d1">
-    <div class="equip-card" onclick="showEquipDetail(${e.id})" style="cursor:pointer">
-      <div class="equip-img-wrap">
-        <img src="${e.img}" alt="${e.name}" loading="lazy" />
-        <div class="equip-badge ${e.type === 'used' ? 'used' : ''}">${e.type === 'rental' ? 'For Rent' : 'Used'}</div>
-      </div>
-      <div class="equip-body">
-        <h5>${e.name}</h5>
-        <p>${e.desc}</p>
-        <div class="equip-price">${e.price}${e.unit ? '<span style="font-size:1rem;color:var(--muted);font-family:Montserrat,sans-serif;-webkit-text-fill-color:var(--muted)">' + e.unit + '</span>' : ''}</div>
-        <div class="equip-specs">${e.specs}</div>
-        <button class="btn-primary btn-sm">View Details <i class="fas fa-arrow-right"></i></button>
-      </div>
-    </div>
-  </div>`;
-      }
-
-      function projCard(p) {
-        return `<div class="reveal d1">
-    <div class="proj-card" style="background-image:url('${p.bg}')">
-      <div class="proj-content">
-        <h5>${p.name}</h5>
-        <div class="proj-badge">${p.loc}</div>
-        <p class="small" style="color:rgba(255,255,255,.75);margin-top:8px;font-size:.82rem">${p.desc}</p>
-      </div>
-    </div>
-  </div>`;
-      }
-
-      function teamCard(m) {
-        return `<div class="reveal d1">
-    <div class="team-card">
-      <img class="team-img" src="${m.img}" alt="${m.name}" loading="lazy" />
-      <h5>${m.name}</h5>
-      <p class="team-pos">${m.pos}</p>
-      <p class="team-exp"><i class="fas fa-briefcase"></i> ${m.exp}+ Years</p>
-    </div>
-  </div>`;
-      }
-
-      /* ── POPULATE GRIDS ─────────────────────────────────────── */
-      function populate() {
-        const rental = equipment.filter(e => e.type === 'rental');
-        const used = equipment.filter(e => e.type === 'used');
-
-        document.getElementById('featured-equip-grid').innerHTML = equipment.slice(0, 3).map(equipCard).join('');
-        document.getElementById('rental-grid').innerHTML = rental.map(equipCard).join('');
-        document.getElementById('used-grid').innerHTML = used.map(equipCard).join('');
-        document.getElementById('home-proj-grid').innerHTML = projects.slice(0, 3).map(projCard).join('');
-        document.getElementById('all-proj-grid').innerHTML = projects.map(projCard).join('');
-        document.getElementById('team-grid').innerHTML = team.map(teamCard).join('');
-      }
-
-      /* ── EQUIPMENT DETAIL ───────────────────────────────────── */
-      function showEquipDetail(id) {
-        const e = equipment.find(x => x.id === id);
-        if (!e) return;
-        const isRental = e.type === 'rental';
-        const html = `
-    <div class="page-banner">
-      <div class="container">
-        <div class="banner-badge"><span class="dot"></span>${e.type === 'rental' ? 'Rental Equipment' : 'Used Equipment'}</div>
-        <h1>${e.name}</h1>
-        <p class="lead">${e.desc}</p>
-      </div>
-    </div>
-    <section class="py-5">
-      <div class="container">
-        <div class="row cols-2" style="align-items:start;gap:48px">
-          <div class="reveal">
-            <div class="detail-img"><img src="${e.img}" alt="${e.name}" /></div>
-          </div>
-          <div class="reveal d2">
-            <div class="detail-badge ${!isRental ? 'used' : ''}">${isRental ? 'Available for Rent' : 'Used Equipment'}</div>
-            <h2 style="font-family:'Montserrat',sans-serif;font-size:2rem;font-weight:800;color:var(--navy);margin-bottom:16px">${e.name}</h2>
-            <div class="price-tag"><div class="price-big">${e.price}</div>${e.unit ? '<div class="price-unit">' + e.unit + '</div>' : ''}</div>
-            <h5 style="font-family:'Montserrat',sans-serif;font-size:1.1rem;margin-bottom:12px">Specifications</h5>
-            <table class="spec-table">
-              <tr><td>Specs</td><td>${e.specs}</td></tr>
-              <tr><td>Type</td><td>${isRental ? 'Rental Equipment' : 'Pre-Owned'}</td></tr>
-              <tr><td>Availability</td><td style="color:#16A34A;font-weight:700">Available Now</td></tr>
-            </table>
-            <div style="margin-top:28px">
-              <button class="enquire-btn" onclick="showPage('contact')"><i class="fas fa-envelope"></i>Enquire About This Equipment</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="py-5 bg-off">
-      <div class="container">
-        <div class="text-center mb-60 reveal"><div class="section-tag">More Equipment</div><h2 class="section-title">More Equipment Available</h2></div>
-        <div class="row cols-3">${equipment.filter(x => x.id !== id).slice(0, 3).map(equipCard).join('')}</div>
-      </div>
-    </section>
-    <section class="vi-cta"><div class="container reveal"><h2>Ready to Rent or Buy?</h2><p class="sub">Contact us today for best pricing and availability.</p><button class="btn-amber" onclick="showPage('contact')"><i class="fas fa-envelope"></i>Contact Us Now</button></div></section>`;
-
-        let detailPage = document.getElementById('page-detail');
-        if (!detailPage) {
-          detailPage = document.createElement('div');
-          detailPage.className = 'page';
-          detailPage.id = 'page-detail';
-          document.getElementById('main-content').appendChild(detailPage);
-        }
-        detailPage.innerHTML = html;
-        showPage('detail');
-      }
-      window.showEquipDetail = showEquipDetail;
-
-      /* ── PAGE ROUTER ────────────────────────────────────────── */
-      function showPage(id) {
-        document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
-        const pg = document.getElementById('page-' + id);
-        if (pg) {
-          pg.classList.add('active');
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-          // Re-observe new reveals
-          setTimeout(initReveal, 50);
-          // Recount if stats on page
-          setTimeout(initCounters, 300);
-        }
-      }
-      window.showPage = showPage;
-
-      /* ── MOBILE NAV ─────────────────────────────────────────── */
-      const navToggle = document.getElementById('nav-toggle');
-      const navMobile = document.getElementById('nav-mobile');
-      navToggle.addEventListener('click', () => {
-        navToggle.classList.toggle('open');
-        navMobile.classList.toggle('open');
-        navToggle.setAttribute('aria-expanded', navMobile.classList.contains('open'));
-      });
-      function closeMobile() {
-        navToggle.classList.remove('open');
-        navMobile.classList.remove('open');
-        navToggle.setAttribute('aria-expanded', 'false');
-      }
-      window.closeMobile = closeMobile;
-
-      /* ── SCROLL SHRINK ──────────────────────────────────────── */
-      const navbar = document.getElementById('navbar');
-      window.addEventListener('scroll', () => {
-        navbar.classList.toggle('scrolled', window.scrollY > 50);
-      }, { passive: true });
-
-      /* ── SCROLL REVEAL ──────────────────────────────────────── */
-      let revealObserver;
-      function initReveal() {
-        if (revealObserver) revealObserver.disconnect();
-        revealObserver = new IntersectionObserver(entries => {
-          entries.forEach(e => {
-            if (e.isIntersecting) { e.target.classList.add('in'); revealObserver.unobserve(e.target); }
-          });
-        }, { threshold: 0.1 });
-        document.querySelectorAll('.reveal:not(.in)').forEach(el => revealObserver.observe(el));
-      }
-
-      /* ── COUNTER ANIMATION ──────────────────────────────────── */
-      function animCount(el, target) {
-        let start = 0, dur = 1600, startTime = null;
-        const suffix = el.dataset.suffix || '';
-        function step(ts) {
-          if (!startTime) startTime = ts;
-          const prog = Math.min((ts - startTime) / dur, 1);
-          const ease = 1 - Math.pow(1 - prog, 3);
-          el.textContent = Math.round(start + (target - start) * ease) + (prog >= 1 ? suffix : '');
-          if (prog < 1) requestAnimationFrame(step);
-        }
-        requestAnimationFrame(step);
-      }
-
-      let counterObserver;
-      function initCounters() {
-        if (counterObserver) counterObserver.disconnect();
-        counterObserver = new IntersectionObserver(entries => {
-          entries.forEach(e => {
-            if (e.isIntersecting) {
-              const target = parseInt(e.target.dataset.target);
-              if (!isNaN(target)) {
-                animCount(e.target, target);
-                counterObserver.unobserve(e.target);
-              }
-            }
-          });
-        }, { threshold: 0.5 });
-        document.querySelectorAll('.counter,.counter-card').forEach(el => {
-          el.textContent = el.dataset.suffix ? '0' + el.dataset.suffix : '0';
-          counterObserver.observe(el);
-        });
-      }
-
-      /* ── INIT ───────────────────────────────────────────────── */
-      document.addEventListener('DOMContentLoaded', () => {
-        populate();
-        initReveal();
-        initCounters();
-
-        // Close dropdowns on outside click
-        document.addEventListener('click', e => {
-          if (!e.target.closest('.nav-dropdown')) {
-            document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('open'));
-          }
-        });
-      });
-
-    })();
-  </script>
   <script src="script.js"></script>
 </body>
-
 </html>
